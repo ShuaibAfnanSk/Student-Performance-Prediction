@@ -2,6 +2,7 @@
 ## exc_tb tells us which line and file exception has occured
 
 import sys
+from src.logger import logging
 
 def error_message_detail(error, error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()    
